@@ -1,0 +1,74 @@
+.youtube-content{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.stack-top {
+    z-index: 9;
+    opacity: 0;
+}
+
+.stack-3 {
+    z-index: 8;
+    box-sizing: content-box;
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    opacity: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
+
+.stack-3 .pause-label {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-clip: padding-box;
+    background-color: black;
+    border: solid transparent 5px;
+    padding: 5px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.cover {
+    background-color: black;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.center {
+    margin: 0;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    font-size: 24px;
+    font-family: sans-serif;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
